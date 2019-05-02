@@ -13,7 +13,7 @@ $(document).ready(function () {
 
     var database = firebase.database();
 
-    // 2. Button for adding Employees
+    //  Button for adding Employees
     $("#add-train-btn").on("click", function (event) {
         event.preventDefault();
 
@@ -45,7 +45,7 @@ $(document).ready(function () {
         $("#start-input").val("");
 
 
-        // 3. Create Firebase event for adding employee to the database and a row in the html when a user adds an entry
+        //  Create Firebase event for adding employee to the database and a row in the html when a user adds an entry
         database.ref().on("child_added", function (childSnapshot, prevChildKey) {
 
             // console.log(childSnapshot.val());
