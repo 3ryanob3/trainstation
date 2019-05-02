@@ -60,7 +60,7 @@ $(document).ready(function () {
             // var trainStartMoment = moment.unix(trainStart).format("HH:mm");
             var trainStartMoment = moment().format("HH:mm");
 
-            $("#employee-table > tbody").append("<tr><td>" + trainName + "</td><td>" + trainDes + + 'empMonths' + "</td><td>" + 'math' + "</td><td>" + 'empBilled' + "</td></tr>");
+            $("#employee-table > tbody").append("<tr><td>" + trainName + "</td><td>" + trainDes + 'empMonths' + "</td><td>" + 'math' + "</td><td>" + 'empBilled' + "</td></tr>");
         });
 
         var now = moment().format("HH:mm");
