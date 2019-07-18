@@ -9,7 +9,7 @@ $(document).ready(function () {
         messagingSenderId: "843649133939"
     };  
     firebase.initializeApp(config);
-
+   
 
     var database = firebase.database();
 
