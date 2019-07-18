@@ -7,7 +7,7 @@ $(document).ready(function () {
         projectId: "erya-833f6",
         storageBucket: "erya-833f6.appspot.com",
         messagingSenderId: "843649133939"
-    };
+    };  
     firebase.initializeApp(config);
 
 
