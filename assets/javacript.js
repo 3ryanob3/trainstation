@@ -64,6 +64,8 @@ $(document).ready(function () {
         });
 
         var now = moment().format("HH:mm");
+        
+        
 
 
 
